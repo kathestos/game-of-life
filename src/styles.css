@@ -29,62 +29,20 @@ h1 {
 .hint {
   margin: 0;
   color: #9ca3af;
-  text-align: center;
-}
-
-.stats {
-  display: flex;
-  gap: 1rem;
-}
-
-.stats > div {
-  background: #111827;
-  border: 1px solid #374151;
-  border-radius: 0.5rem;
-  padding: 0.5rem 0.75rem;
-  min-width: 8rem;
-  display: flex;
-  flex-direction: column;
-  gap: 0.25rem;
-}
-
-.label {
-  font-size: 0.8rem;
-  color: #9ca3af;
 }
 
 .controls {
   display: flex;
   gap: 0.5rem;
   flex-wrap: wrap;
-  justify-content: center;
 }
 
-.panel {
-  display: flex;
-  gap: 1rem;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
-.panel label {
-  display: flex;
-  flex-direction: column;
-  gap: 0.35rem;
-  font-size: 0.9rem;
-}
-
-button,
-select,
-input[type='range'] {
+button {
   border: 1px solid #374151;
   color: #f9fafb;
   background: #111827;
   padding: 0.5rem 0.875rem;
   border-radius: 0.5rem;
-}
-
-button {
   cursor: pointer;
 }
 
@@ -97,13 +55,7 @@ button:disabled {
   cursor: not-allowed;
 }
 
-input[type='range'] {
-  padding: 0.25rem;
-}
-
 canvas {
   border: 1px solid #374151;
   background: #111827;
-  max-width: min(95vw, 1200px);
-  height: auto;
 }
